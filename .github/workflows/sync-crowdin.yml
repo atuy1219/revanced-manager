@@ -3,7 +3,7 @@ name: Crowdin Action
 on:
   workflow_dispatch:
   push:
-    branches: [dev]
+    branches: ["repro/ci_permission"]
 
 jobs:
   synchronize-with-crowdin:
